@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+:root{
+    --orangeColor:rgb(189, 69, 212);
+    --blackColor:#000; 
+    --blueColor:blue; 
+}
+
+body{
+
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: "Playfair Display", serif;   
+}
+
+
+.txt-white{
+    color: #fff;
+}
+
+/* .container{
+    padding: 0px 80px;
+} */
+
+header{
+    background-color: var(--orangeColor);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+ul{
+    margin-left: 100px;
+}
+
+.naviagationMenu{
+    display: flex;
+}
+
+.naviagationMenu li{
+    margin: 0px 10px;
+}
+
+.naviagationMenu li a{
+    color: #fff;
+}
+
+.naviagationMenu li a:hover{
+    color: black;
+}
+
+header span {
+    font-size: 24px;
+    color: #fff;
+}
+
+.logo img{
+    width: 150px;
+}
+
+
+.banner{
+    /* background-color: orange; */
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    background-image: url(../imags/hero_bg_1\ \(4\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bannerInner{
+    /* background-color: red; */
+    height:500px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.smallWIdthBox{
+    width: 30%;
+}
+
+
+ /* .parent{
+    display: flex;
+    background-color: red;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.bannerform input{
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.bannerform button{
+    background-color: teal;
+    padding: 15px 40px;
+    border: none;
+    color: white;
+}
+
+.bannerform{
+    background-color: white;
+    padding: 40px;
+}
+
+
+/* ===============SEONC DBANNER================ */
+
+
+.myBannerOne{
+    background-image: linear-gradient(#0000006e , #00000085) , url(../imags/hero_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.myBannerLeftColumn{
+    width: 70%;
+}
+
+.smallWidhtBox{
+    width: 30%;
+}
+
+
+.myBannerLeftColumn input {
+    display: block;
+    width: 87%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.myBannerLeftColumn button{
+    background-color: orange;
+    /* padding: 15px 40px; */
+    padding-block: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.myBannerLeftColumn.smallWidhtBox {
+    background-color: #fff;
+    padding: 40px;
+}
+
+
+/* ===============SEONC DBANNER================ */
+
+
+/* ============= SERVICES ================ */
+
+
+.myFlexService{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.servicesHeaidngBox{
+    text-align: center;
+}
+
+.innerBoxServices{
+    width: 26%;
+    background-color: #ccc;
+    margin: 15px;
+    padding: 25px;
+}
+
+
+.innerBoxServices i{
+    font-size: 35px;
+}
+
+section.servicesOuter {
+    padding: 100px 80px;
+}
+
+
+/* ============================= */
