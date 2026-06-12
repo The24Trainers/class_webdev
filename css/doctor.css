@@ -53,3 +53,39 @@
     }
 
 /* ================ SWIPER ================= */
+
+
+
+.testi{
+  background-image: linear-gradient(#0000005e , #ff484875) , url(../imags/hero_bg_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center
+}
+
+.boldtxtbanner{
+  font-weight: 900;
+}
+
+.ligtTxtBnner{
+  font-weight: 100;
+}
+
+.imgWalabAnner img{
+  height: 500px;
+  width: 500px;
+}
+
+.seconUpperImage{
+  margin-top: 10px;
+}
+
+.seconUpperImage {
+    margin-top: -223px;
+    margin-left: 170px;
+}
